@@ -1,4 +1,4 @@
-## Compiling C Programs
+# Compiling C Programs
 
 gcc is the GNU C Compiler. Below are several examples that show how to use gcc to compile C programs. 
 
@@ -31,7 +31,7 @@ The header files that you include using *"#include"* may not be in the same dire
     
 This tells gcc to look for #include files in */homes/username/include **in addition** to other directories you specify with -I
 
-#### Other Options
+### Other Options
 - Wall: Turns on most warnings
 - Werror: Make all warnings into errors.
 
